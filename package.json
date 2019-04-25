@@ -7,7 +7,7 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "linuxpack": "zip -r lambda.zip * -x *.zip *.log",
-    "winpack": "7z a -tzip lambda.zip *"
+    "winpack": "7z a -tzip lambda.zip index.js db node_modules repositories package.json"
   },
   "author": "andersonbtt",
   "license": "ISC",
