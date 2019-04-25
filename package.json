@@ -1,7 +1,7 @@
 {
-  "name": "professionals-api",
+  "name": "service-orders-api",
   "version": "1.0.0",
-  "description": "Professionals api",
+  "description": "Service orders api",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",

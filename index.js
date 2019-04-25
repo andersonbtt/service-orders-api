@@ -6,7 +6,7 @@ const { list,
         getById, 
         deleteById, 
         putExistent, 
-        putNew} = require('./repositories/customerRepository');
+        putNew} = require('./repositories/serviceOrderRepository');
 
 exports.handler = async (event, context, callback) => {
     let httpMethod = event.httpMethod;
